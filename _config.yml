@@ -33,3 +33,7 @@ jumbotron_color: "#d64161"
 #jumbotron_image: "img/daryan-shamkhali-lZzlQUblE_U-unsplash.jpg"
 jumbotron_mask: "img/jumbotron-mask.svg"
 jumbotron_icon: "img/170869735_205990700910356_1480322774758895301_n.png"
+.jumbotron_icon {
+    width: 200px;
+    height: 120px;
+}
