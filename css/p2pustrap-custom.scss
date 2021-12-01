@@ -18,12 +18,6 @@
  $jumbotron-color: $p2pu-blue;
 {% endif %}
 
-{% if site.jumbotron_background_image %}
-	$jumbotron-image: '{{ site.jumbotron_background_image }}';
-{% else %}
-	$jumbotron-image: 'banner.svg';
-{% endif %}
-
 {% if site.jumbotron_image %}
 	$jumbotron-image: '{{ site.jumbotron_image}}';
 {% else %}
@@ -43,6 +37,4 @@
 	$jumbotron-mask: 'img/jumbotron_mask.svg';
 {% endif %}
 
-
-@import "common";
-}
+@import "custom";
